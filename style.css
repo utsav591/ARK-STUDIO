@@ -6,8 +6,13 @@ body {
     background-position: center;
     background-size: cover;
     height: 400px;
+    background-color: white;
+  color: black;
 }
-
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -43,7 +48,7 @@ a {
     background-color: white;
     justify-content: space-between;
     opacity: 0.8;
-    margin-top: 528px;
+    margin-top: 461px;
     padding: 14px;
 }
 
@@ -68,8 +73,8 @@ h3 {
 
 .bgimage {
     color: black;
-    padding-left: 133px;
-    width: 643px;
+    padding-left: 102px;
+    width: 498px;
 }
 
 .images2 {
@@ -84,7 +89,7 @@ span{
     color: rgb(87, 87, 87);
 }
 .s1 {
-    padding-top: 25px ;
+    padding-top: 5px ;
     text-align: center;
 }
 
@@ -97,8 +102,8 @@ span{
 
 .thirdpage {
     display: flex;
-    height: 375px;
-    padding: 0px 42px;
+    height: 332px;
+    padding: 0px 20px;
 }
 
 .para {
@@ -151,11 +156,10 @@ span{
 
 .footer-grid {
     display: grid;
-    grid-gap: 30px;
     grid-template-columns: auto auto auto auto;
     color: white;
     justify-content: space-around;
-    margin: 45px 227px;
+    margin: 0px 174px;
 }
 
 .footer-img {
